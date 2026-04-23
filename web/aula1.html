@@ -55,6 +55,28 @@
             color:red;  /* mudando a cor da palavra nova */
         }
 
+        table{
+            border:1px;
+            border-style:solid;
+            border-collapse: collapse;
+            text-align: center;
+            margin:auto; /* alinhamento da tabela*/
+        }
+
+        td{
+            padding:7px;
+            border: 1px solid black;
+        }
+
+        .tabela2{
+            margin-top:20px;
+            border-style:dashed;
+            border-color: pink;
+        }
+
+        .comida{
+            height:150px;
+        }
     </style>
 </head>
 <body><!-- Body é o corpo da página -->
@@ -87,7 +109,49 @@
             <li>Desemprego</li>
         </ol>
    
-    
+        <h3>Tabelas</h3>
+
+        <table>
+        <tr>
+            <td>Nome</td>
+            <td>Email</td>
+            <td>Numero</td>
+        </tr>
+
+        <tr>
+            <td>Matheus</td>
+            <td>Matheus@senac.com</td>
+            <td>119562-1850</td>  
+        </tr>
+
+        <tr>
+            <td>Maysa</td>
+            <td>Maysa@senac.com</td>
+            <td>119685-1100</td>
+        </tr>
+
+    </table>
+
+    <h3>Cardápio</h3>
+
+    <table class="tabela2">
+        <tr>
+            <td>Falafel</td>
+            <td>Muhamara</td>
+            <td>Pão Pita</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imagens/FALAFEL.webp" alt="Falafel" title="kibe com salsa e molho" class="comida"></td>
+            <td><img src="Imagens/MUHAMARA.webp" alt="Muhamara" title="massa com calda e folhas" class="comida"></td>
+            <td><img src="Imagens/PAO PITA.webp" alt="Pão Pita" title="pão assado" class="comida"></td>
+        </tr>
+        <tr>
+            <td>R$ 50,00</td>
+            <td>R$ 30,00</td>
+            <td>R$ 15,00</td>
+        </tr>
+    </table>
 </body>
 </html>
 <!-- ctrl+k+c = atalho para comentário -->
