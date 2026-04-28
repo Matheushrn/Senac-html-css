@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="Favicon/Nyamcatfav.png">
     <title>Serviços</title>
 </head>
 <body>
     
     <nav>
-       <a href="index.html">Home</a>
-       <a href="servicos.html">Serviços</a>
-       <a href="produtos.html">Produtos</a>
+        <!-- Menu com itens de acessibilidade -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+      </ul>
     </nav>
 
     <figure>
@@ -21,14 +25,19 @@
 
     <h1>Nossos serviços</h1>
     <!-- Serviços -->
-    <table>
+    <table id="servico">
         <tr>
             <td><img src="imagens/servicos/dentista.webp" alt="Dentista para animais" class="servicos"></td>
             <td><img src="imagens/servicos/Passeio.jpg" alt="Passeio com Cachorros" class="servicos"></td>
             <td><img src="imagens/servicos/Vacina.avif" alt="Vacinação para animais" class="servicos"></td>
         </tr>
+        <tr>
+            <td>dentista</td>
+            <td>Passeio</td>
+            <td>Vacinas</td>
+        </tr>
     </table>
 
-    <footer id="rodape">Todos os direitos reservados - 2026</footer>
+    <footer class="servicofooter">Todos os direitos reservados - <span class="ano">2026</span></footer>
 </body>
 </html>
