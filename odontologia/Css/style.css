@@ -65,7 +65,7 @@ body{
  .menu nav ul li {
    display: inline;
    list-style-type:none;
-   padding-right:4%;
+   padding-right:3%;
  }
 
  a{
@@ -277,4 +277,152 @@ textarea{
    width:25%;
    padding:5px;
    margin-top:15px;
+}
+
+/* breakpoints - cor da tela em diferentes dispositivos  */
+
+/* @media(min-width: 567px){ */
+   /* body{ */
+      /* background-color: red; */
+   /* } */
+/* } */
+
+/* @media(min-width: 768px){ */
+   /* body{ */
+      /* background-color: blue; */
+   /* } */
+/* } */
+
+/* @media(min-width: 992px){ */
+   /* body{ */
+      /* background-color: green; */
+   /* } */
+/* } */
+
+/* @media(min-width: 1200px){ */
+   /* body{ */
+      /* background-color: lightpink; */
+   /* } */
+/* } */
+
+/* breakpoints - tamanho da tela em diferentes dispositivos */
+ 
+
+/* media query para a parte de serviços */
+@media screen and (min-width: 375px) {
+   .servicos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:80%;
+   height:auto;
+   margin: 1%;
+   font-size: 1.3em; /* Fonte Responsiva */
+   padding:10%;
+}   
+
+   
+}
+
+@media screen and (min-width: 576px) {
+   .servicos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:80%;
+   height:auto;
+   margin: 1%;
+   font-size: 1.3em; /* Fonte Responsiva */
+   padding:10%;
+}   
+}
+
+@media screen and (min-width: 768px) {
+   .servicos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:15%;
+   margin-right:3%;
+   font-size: 1.1vw; /* Fonte Responsiva */
+   padding:3%;
+}   
+}
+
+@media screen and (min-width: 992px) {
+   .servicos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:15%;
+   margin:2%;
+   padding:3%;
+}   
+}
+
+@media screen and (min-width: 1200px) {
+   .servicos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:15%;
+   margin:2%;
+   padding:3%;
+}   
+}
+
+/* media query para parte do conteudo */
+@media screen and (min-width: 375px) {
+   .conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:100%;
+   height:auto;
+   }
+}
+
+@media screen and (min-width: 576px) {
+   .conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:80%;
+   height:auto;
+   margin: 1%;
+   font-size: 1.3em; /* Fonte Responsiva */
+   padding:10%;
+}   
+}
+
+@media screen and (min-width: 768px) {
+   .conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:80%;
+   margin-right:3%;
+   font-size: 1.1em; /* Fonte Responsiva */
+   padding:3%;
+}   
+}
+
+@media screen and (min-width: 992px) {
+   .conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:40%;
+   font-size:1.3em;
+}   
+}
+
+@media screen and (min-width: 1200px) {
+   .conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:40%;
+   font-size:1.5em;
+}   
 }
